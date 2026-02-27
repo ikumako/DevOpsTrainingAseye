@@ -1,0 +1,6 @@
+const http = require('http');
+const server = http.createServer((req, res) => {
+    res.write("Hello DevOps Starter Project!");
+    res.end();
+});
+server.listen(3000);
